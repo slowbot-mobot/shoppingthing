@@ -1,0 +1,31 @@
+{
+  "name": "shoppingthing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowbot-mobot/shoppingthing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slowbot-mobot/shoppingthing/issues"
+  },
+  "homepage": "https://github.com/slowbot-mobot/shoppingthing#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.0",
+    "express": "^4.14.0",
+    "express-babelify-middleware": "^0.2.1",
+    "express-session": "^1.14.0",
+    "knex": "^0.11.7",
+    "node-sass-middleware": "^0.9.8",
+    "pg": "^6.0.1",
+    "pug": "^2.0.0-beta3"
+  }
+}
