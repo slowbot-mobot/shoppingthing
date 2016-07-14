@@ -1,4 +1,5 @@
 require('dotenv').config();
+
 var app = require('express')();
 
 var appInit = function(app){
@@ -6,13 +7,6 @@ var appInit = function(app){
   app.set('views', './app/views');
   app.listen(3000);
   console.log('Now listening on port 3000');
-};
-
-var knexInit = function(){
-  var knex = require('knex')({
-    dialect:'postgresql',
-    
-  });
 };
 
 var appRoutes = function(app){

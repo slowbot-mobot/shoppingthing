@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
 
   development: {
@@ -14,7 +15,7 @@ module.exports = {
     },
     migrations: {
       tableName: 'knex_migrations',
-      directory: '/db/migrations'
+      directory: 'db/migrations'
     },
     seeds: {
       directory: 'db/seeds'
