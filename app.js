@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 var app = require('express')();
 
 var appInit = function(app){
